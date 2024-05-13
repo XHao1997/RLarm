@@ -61,8 +61,8 @@ class ArmEnv(object):
         self.viewer = None
         self.fps = fps
         self.show_fps = show_fps
-        self.viewer_width = 400
-        self.viewer_height = 400
+        self.viewer_width = 500
+        self.viewer_height = 500
         assert n_arms > 0, ValueError
         self.arms = [Arm(200/n_arms, np.pi/6, None)]
         for i in range(n_arms-1):
